@@ -13,3 +13,7 @@ Deploy Microsoft Sql Server
 ** docker-compose up -d
 
 Create a file via Command Line =  type NUL > fileName.fileExtension
+
+Create a new class lib project = dotnet new classlib -o CQRS.Core
+
+create new Solution =  dotnet new sln
