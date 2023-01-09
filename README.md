@@ -17,3 +17,10 @@ Create a file via Command Line =  type NUL > fileName.fileExtension
 Create a new class lib project = dotnet new classlib -o CQRS.Core
 
 create new Solution =  dotnet new sln
+
+Adding a Proj to a solution = 
+ 
+
+Addig a reference to a Proj.  = dotnet  add Post.Cmd\Post.Cmd.Api\Post.cmd.Api.csproj reference ..\CQRS-ES\CQRS.Core
+
+A Nuget package is a compiled library with some descriptive metadata. It provides a way for dotnet developers to share useful code
